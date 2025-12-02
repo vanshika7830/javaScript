@@ -35,6 +35,8 @@ let isLoggedOut = 0
 let isBooleanLoggedIn = Boolean(isLoggedIn) 
 let isBooleanLoggedOut = Boolean(isLoggedOut) 
 let isBooleanLoggedInString = Boolean(isLoggedInString) 
+let num1 = 4
+console.log(num1)
 
 console.log(typeof isBooleanLoggedIn)
 console.table([isLoggedIn,isBooleanLoggedIn])
