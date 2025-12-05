@@ -20,4 +20,4 @@ console.log(undefined >= 0)
 console.log("2" === 2)
 console.log("3" === "3")
 
-console.log("Everything")
+console.log("Everything is fine")
