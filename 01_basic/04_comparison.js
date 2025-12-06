@@ -35,4 +35,10 @@ let userOne = {
     email : "vanshikagupta@google.com",
     salary : 5000
 };
+console.log(userOne.email)
 
+
+let userTwo = userOne;
+userTwo.email = "vanshikagupta@microsoft.com";
+console.log(userOne.email)
+console.log(userTwo.email)
