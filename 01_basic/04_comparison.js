@@ -20,4 +20,13 @@ console.log(undefined >= 0)
 console.log("2" === 2)
 console.log("3" === "3")
 
-console.log("Everything is fine")
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+let youtubeName = "Vanshikaguptaa2004@gmail.com";
+console.log(youtubeName)
+
+let anotherName = youtubeName
+console.log(anotherName)
+
+anotherName = "hello@apple.com"
+console.log(anotherName)
+console.log(youtubeName)
