@@ -30,3 +30,9 @@ console.log(anotherName)
 anotherName = "hello@apple.com"
 console.log(anotherName)
 console.log(youtubeName)
+
+let userOne = {
+    email : "vanshikagupta@google.com",
+    salary : 5000
+};
+
