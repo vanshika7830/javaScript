@@ -23,8 +23,9 @@ console.log(JSUser[mySym])
 JSUser.email = "vanshika@hello.com"
 // Object.freeze(JSUser)  // Further changes will not be reflected
 
+console.log(JSUser)
 JSUser.greeting = function(){
-    console.log("Hello JS User")
+    console.log(`Hello JS User ${this["full name"]}`)
 }
 
 console.log(JSUser.greeting())
