@@ -8,7 +8,7 @@ const JSUser = {
     "full name":"Vanshika Gupta",
     age : 20,
     [mySym]:"mykey", //consider as symbol
-    // mySym:"mykey",  //Doesn't give error but consider as string type
+    mySym:"mykey",  //Doesn't give error but consider as string type
     location: "Punjab",
     email: "vanshika@gmail.com",
     isLoggedIn: false,
