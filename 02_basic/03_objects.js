@@ -12,6 +12,7 @@ const JSUser = {
     location: "Punjab",
     email: "vanshika@gmail.com",
     isLoggedIn: false,
+    lastLoginDays: ["Monday", "Saturday"]
 }
 
 console.log(JSUser.name)
