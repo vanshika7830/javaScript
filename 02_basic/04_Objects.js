@@ -5,7 +5,7 @@ const tinderUser = new Object()
 tinderUser.id = "123abc";
 tinderUser.name = "Vanshika";
 tinderUser.isLoggedIn = true;
-console.log(tinderUser)
+
 
 const regularUser = {
     email: "vanshika001",
