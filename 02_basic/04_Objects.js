@@ -8,7 +8,7 @@ tinderUser.isLoggedIn = true;
 
 
 const regularUser = {
-    email: "vanshika001",
+    email: "vanshika123",
     fullName: {
         userFullName: {
             firstName: "Vanshika",
