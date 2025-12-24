@@ -1,5 +1,5 @@
 // Singleton
-// Object Literals //
+// Object Literals
 
 const tinderUser = new Object()
 tinderUser.id = "123abc";
