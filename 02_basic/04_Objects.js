@@ -6,7 +6,6 @@ tinderUser.id = "123abc";
 tinderUser.name = "Vanshika";
 tinderUser.isLoggedIn = true;
 
-// Helloooo
 const regularUser = {
     email: "vanshika123",
     fullName: {
