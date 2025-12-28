@@ -55,5 +55,9 @@ const user = {
     courseCode: "CSE330"
 }
 
-const {courseInstructor } = user
+// const {courseInstructor } = user
+// console.log(courseInstructor)
+
+
+const {courseInstructor : instructor} = user
 console.log(courseInstructor)
