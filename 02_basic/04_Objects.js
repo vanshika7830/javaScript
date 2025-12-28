@@ -61,3 +61,10 @@ const user = {
 
 const {courseInstructor : instructor} = user
 console.log(courseInstructor)
+
+
+//JSON
+// {
+//     "name":"vanshika",
+//     "age":"20"
+// }
