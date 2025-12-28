@@ -49,3 +49,11 @@ console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))   //array form
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))  // check if prperty exists or not
+
+const user = {
+    courseInstructor: "Vanshika",
+    courseCode: "CSE330"
+}
+
+const {courseInstructor } = user
+console.log(courseInstructor)
