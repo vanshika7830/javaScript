@@ -68,3 +68,12 @@ console.log(courseInstructor)
 //     "name":"vanshika",
 //     "age":"20"
 // }
+
+
+// //Array of json
+// [
+//     {},
+//     {},
+//     {},
+//     {}
+// ]
