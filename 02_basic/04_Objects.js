@@ -69,6 +69,7 @@ console.log(courseInstructor)
 //     "age":"20"
 // }
 
+// API - Application programming Interface
 
 // //Array of json
 // [
