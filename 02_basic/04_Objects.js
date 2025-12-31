@@ -71,9 +71,6 @@ console.log(courseInstructor)
 
 // API - Application programming Interface
 
-
-
-
 // //Array of json
 // [
 //     {},
@@ -81,3 +78,5 @@ console.log(courseInstructor)
 //     {},
 //     {}
 // ]
+
+// Functions
