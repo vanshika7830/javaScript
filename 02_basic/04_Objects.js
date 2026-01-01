@@ -80,3 +80,4 @@ console.log(courseInstructor)
 // ]
 
 // Functions
+// Happy new year
