@@ -21,8 +21,18 @@ function addTwoNumbers(num1, num2){
     return num1 + num2
 }
 
-const result = addTwoNumbers(6,4)
-console.log(result)
+// const result = addTwoNumbers(6,4)
+// console.log(result)
 
 // Passed in function definition () - Parameters
 // Passed in function call - Arguments
+
+function logginUserMessage(userName = "Vanshi"){
+    if(!userName){                                        //!userName = undefined
+       return `No user just loggen in!!`
+    }
+    return `${userName} just loggen in!!`
+}
+// const user = logginUserMessage("")    // Default parameters Used
+const user = logginUserMessage("Vanshika")
+console.log(user)
