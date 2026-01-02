@@ -17,9 +17,12 @@ function greetings(name){
 // addTwoNumbers(5)   // answer = NaN
 // addTwoNumbers(5,null)   // answer = 5
 
-function addTwoNumbers(num1, num2){
+function addTwoNumbers(num1, num2){    
     return num1 + num2
 }
 
 const result = addTwoNumbers(6,4)
 console.log(result)
+
+// Passed in function definition () - Parameters
+// Passed in function call - Arguments
