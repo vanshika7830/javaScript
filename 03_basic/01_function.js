@@ -34,5 +34,21 @@ function logginUserMessage(userName = "Vanshi"){
     return `${userName} just loggen in!!`
 }
 // const user = logginUserMessage("")    // Default parameters Used
-const user = logginUserMessage("Vanshika")
-console.log(user)
+// const user = logginUserMessage("Vanshika")
+// console.log(user)
+
+// function calculateCartPrice(num1){
+//     return num1
+// }
+// console.log(calculateCartPrice(5))
+
+
+// function calculateCartPrice(...num1){
+//     return num1
+// }
+// console.log(calculateCartPrice(100,200,300,400))
+
+function calculateCartPrice(val1,val2,...num1){
+    return num1
+}
+console.log(calculateCartPrice(100,200,300,400))
