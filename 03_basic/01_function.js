@@ -62,7 +62,6 @@ function handleObject(anyObject){
 }
 
 // console.log(handleObject(user))
-
 handleObject({
     unserName: "Vanshika",
     price: 500
