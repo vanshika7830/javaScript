@@ -67,3 +67,10 @@ handleObject({
     unserName: "Vanshika",
     price: 500
 })
+
+const myNewArray = [300, 400, 500]
+function returnSecondValue(myArray){
+    return myArray[1]
+}
+
+console.log(returnSecondValue(myNewArray))
