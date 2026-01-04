@@ -17,8 +17,6 @@ function greetings(name){
 // addTwoNumbers(5)   // answer = NaN
 // addTwoNumbers(5,null)   // answer = 5
 
-
-
 function addTwoNumbers(num1, num2){    
     return num1 + num2
 }
