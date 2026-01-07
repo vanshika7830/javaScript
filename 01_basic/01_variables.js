@@ -11,3 +11,5 @@ accountPassword = "7888"
 
 console.log(accountId)
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+
+// Revisting variables
