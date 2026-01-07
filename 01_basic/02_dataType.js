@@ -21,3 +21,5 @@ console.table([num,val,names,un_val])
 console.log(typeof num)
 console.log(typeof val)
 console.log(typeof un_val)
+
+// Revisiting data type
