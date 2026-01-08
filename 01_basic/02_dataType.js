@@ -23,3 +23,4 @@ console.log(typeof val)
 console.log(typeof un_val)
 
 // Revisiting data type
+// Revisiting data type
