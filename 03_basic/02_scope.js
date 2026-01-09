@@ -86,8 +86,15 @@
 
 // -----------------------------------INTERESTING (HOISTING) ---------------------------
 
-addOne(5)  //valid
-function addOne(num){
+// addOne(5)  //valid
+// function addOne(num){
+//     return num+1
+// }
+// addOne(5)
+
+
+// addTwo(5) // not valid bcz here we have function assign to a variable
+const addTwo = function(num){
     return num+1
 }
-addOne(5)
+addTwo(5)
