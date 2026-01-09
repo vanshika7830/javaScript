@@ -71,14 +71,23 @@
 
 
 // -------------------- CONTROL FLOW---------------------
-if(true){
-    const userName = "Vanshika"
-    if(userName === "Vanshika"){
-        const website = " youtube"
-        console.log(userName+website)
-    }
+// if(true){
+//     const userName = "Vanshika"
+//     if(userName === "Vanshika"){
+//         const website = " youtube"
+//         console.log(userName+website)
+//     }
 
-    console.log(website) // can't access
+//     console.log(website) // can't access
+// }
+
+// console.log(userName)  // can't access
+
+
+// -----------------------------------INTERESTING (HOISTING) ---------------------------
+
+addOne(5)  //valid
+function addOne(num){
+    return num+1
 }
-
-console.log(userName)  // can't access
+addOne(5)
