@@ -57,14 +57,28 @@
 
 // ---------------------------- FUNCTION INSIDE FUNCTION-------------------
 
-function one(){
-    const userName = "Vanshika"
-    function two(){
-        const website = "youtube"
-        console.log(userName)
-    }
-    // console.log(website)    //Error outer function can't access inner function attribute
-    two()
-} 
+// function one(){
+//     const userName = "Vanshika"
+//     function two(){
+//         const website = "youtube"
+//         console.log(userName)
+//     }
+//     // console.log(website)    //Error outer function can't access inner function attribute
+//     two()
+// } 
 
-one()
+// one()
+
+
+// -------------------- CONTROL FLOW---------------------
+if(true){
+    const userName = "Vanshika"
+    if(userName === "Vanshika"){
+        const website = " youtube"
+        console.log(userName+website)
+    }
+
+    console.log(website) // can't access
+}
+
+console.log(userName)  // can't access
