@@ -46,11 +46,25 @@
 // Revisiting Functions
 
 
-let a = 300
-if(true){
-    let a = 100
-    let b = 200
-    console.log("INNER: ",a)
-}
+// let a = 300
+// if(true){
+//     let a = 100
+//     let b = 200
+//     console.log("INNER: ",a)
+// }
 
-console.log("OUTER: ",a)
+// console.log("OUTER: ",a)
+
+// ---------------------------- FUNCTION INSIDE FUNCTION-------------------
+
+function one(){
+    const userName = "Vanshika"
+    function two(){
+        const website = "youtube"
+        console.log(userName)
+    }
+    // console.log(website)    //Error outer function can't access inner function attribute
+    two()
+} 
+
+one()
