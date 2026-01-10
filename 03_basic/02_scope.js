@@ -98,3 +98,5 @@ const addTwo = function(num){
     return num+1
 }
 addTwo(5)
+
+// scope variable revisit
