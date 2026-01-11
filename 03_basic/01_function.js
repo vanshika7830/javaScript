@@ -75,3 +75,4 @@ function returnSecondValue(myArray){
 console.log(returnSecondValue(myNewArray))
 
 // revisit function
+// revisit function
