@@ -100,3 +100,4 @@ const addTwo = function(num){
 addTwo(5)
 
 // scope variable revisit
+// scope variable revisit
