@@ -30,3 +30,4 @@ console.log(Array.of(score1,score2,score3))
 
 // Revisting Errors
 // Array functions
+// Basic revision
