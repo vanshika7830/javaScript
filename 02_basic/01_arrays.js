@@ -29,5 +29,4 @@ console.log(myn2)
 console.log(myArr)
 
 // Slice extracts the elements from array while splice omits those elements from original array.
-
-// revisit array
+// Basic revision
