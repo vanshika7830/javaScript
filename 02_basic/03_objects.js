@@ -30,3 +30,4 @@ JSUser.greeting = function(){
 
 console.log(JSUser.greeting())
 console.log(JSUser.greeting)    // Anonymous
+// Anonymous function
