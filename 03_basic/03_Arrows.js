@@ -42,3 +42,6 @@ chai()
 
 const addTwo = (num1, num2) => ({usernname : "vanshi"})
 console.log(addTwo(3,4))
+
+// const myArray = [2,2,3,4]
+// myArray.forEach()
