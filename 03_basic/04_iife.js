@@ -5,5 +5,9 @@
 (function chai(){
     // Named IFFE
     console.log("DB Connected One");
-})();    // this () is function call
+})()    // this () is function call
 
+(() => {
+    // Unnamed IFEE
+    console.log("DB Connected Two");
+})()
