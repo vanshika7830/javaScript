@@ -5,7 +5,9 @@
 (function chai(){
     // Named IFFE
     console.log("DB Connected One");
-})()    // this () is function call
+})();    // this () is function call
+
+// use semicolon with first IFFE when using two IFFE
 
 (() => {
     // Unnamed IFEE
