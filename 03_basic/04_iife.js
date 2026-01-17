@@ -12,4 +12,10 @@
 (() => {
     // Unnamed IFEE
     console.log("DB Connected Two");
-})()
+})();
+
+// Parametric IFFE
+((name) => {
+    // Unnamed IFEE
+    console.log(`${name}`);
+})("Vanshika")
