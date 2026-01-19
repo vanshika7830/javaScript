@@ -22,3 +22,15 @@
 })("Vanshika")
 
 // IFEE
+
+
+// Javascript Execution Context
+// 1. Global EC
+// 2. Functiona EC
+// 3. Eval EC
+
+// Global Execution Context -> Memory Creation Phase -> Execution Phase
+// For a function new memory and execution phase is made with New Variable Environment + Execution Thread
+// Call Stack for function calls follows LIFO
+
+// 
