@@ -32,5 +32,3 @@
 // Global Execution Context -> Memory Creation Phase -> Execution Phase
 // For a function new memory and execution phase is made with New Variable Environment + Execution Thread
 // Call Stack for function calls follows LIFO
-
-// 
