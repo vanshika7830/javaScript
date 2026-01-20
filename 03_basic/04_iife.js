@@ -33,3 +33,5 @@
 
 // For a function new memory and execution phase is made with New Variable Environment + Execution Thread
 // Call Stack for function calls follows LIFO
+
+// Control flow
