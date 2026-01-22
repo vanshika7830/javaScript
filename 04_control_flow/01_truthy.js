@@ -26,3 +26,8 @@ val1 = 20 ?? 15
 val1 = undefined ?? 10
 val1 = NaN ?? 20
 console.log(val1);
+
+// Ternary Operator
+// condition ? true_val : false_val
+let icePrice = 80
+icePrice >= 70 ? console.log("Ice price is above 70") : console.log("Ice price is below 70");
