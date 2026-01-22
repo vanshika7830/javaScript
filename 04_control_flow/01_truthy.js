@@ -16,3 +16,13 @@ if(Object.keys(myObj).length == 0){
     console.log("Object is empty");
 }
 
+// Nullish Coalescing Operator - ??
+// It return the first value in case both values are true and return the first true value in case other value is null, undefined
+// For NaN ?? val return NaN
+
+let val1 = null ?? 10
+val1 = 20 ?? null
+val1 = 20 ?? 15
+val1 = undefined ?? 10
+val1 = NaN ?? 20
+console.log(val1);
