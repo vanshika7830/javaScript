@@ -12,7 +12,15 @@ while(arr < myArray.length){
     arr++;
 }
 
-let score = 1;
+// let score = 1;
+// do{
+//     console.log(`Score is ${score}`);
+//     score++;
+// }while(score <= 10);
+
+
+// Do while loop checks condition at last so O/P - Score is 11 then terminate
+let score = 11;
 do{
     console.log(`Score is ${score}`);
     score++;
