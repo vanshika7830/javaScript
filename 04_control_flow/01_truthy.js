@@ -32,3 +32,6 @@ console.log(val1);
 let icePrice = 80
 icePrice >= 70 ? console.log("Ice price is above 70") : console.log("Ice price is below 70");
 // operator
+
+
+// Control flow
