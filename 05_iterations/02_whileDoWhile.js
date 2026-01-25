@@ -11,3 +11,9 @@ while(arr < myArray.length){
     console.log(`Array elements are ${myArray[arr]}`)
     arr++;
 }
+
+let score = 1;
+do{
+    console.log(`Score is ${score}`);
+    score++;
+}while(score <= 10);
