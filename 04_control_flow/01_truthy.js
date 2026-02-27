@@ -10,6 +10,7 @@ if(myArray.length == 0){
     console.log("Array is empty");
 }
 
+
 // Check Object is empty
 myObj = {}
 if(Object.keys(myObj).length == 0){
